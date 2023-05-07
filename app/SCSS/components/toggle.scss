@@ -27,11 +27,18 @@
   input[type='radio'] {
     margin: 0 rem(-2) 0 rem(-2);
     opacity: 0;
-    width: rem(20);
+    width: rem(24);
     height: rem(24);
+    cursor: pointer;
 
     &:focus ~ .toggle__button {
-      border: rem(0.5) solid var(--toggle-focus);
+      border: rem(0.125) solid var(--toggle-focus);
+    }
+
+    &:hover ~ .toggle__background {
+      background: linear-gradient(225deg,
+          var(--toggle-bg-end) 0%,
+          var(--toggle-bg-start) 98.02%);
     }
   }
 
