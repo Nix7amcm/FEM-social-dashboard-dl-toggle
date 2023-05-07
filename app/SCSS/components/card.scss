@@ -86,7 +86,7 @@
 	&__count {
 		color: var(--light-bg);
 		font-weight: 700;
-		letter-spacing: rem(-2);
+		letter-spacing: rem(-1);
 		line-height: 1;
 		margin-bottom: rem(4);
 
@@ -106,6 +106,7 @@
 		color: var(--dark-text1);
 		text-transform: uppercase;
 		margin-top: rem(9);
+		margin-left: rem(5);
 	}
 
 	&__change {
