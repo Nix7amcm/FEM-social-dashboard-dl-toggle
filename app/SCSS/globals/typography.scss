@@ -19,6 +19,7 @@ h1 {
 h2 {
   font-size: rem(24);
   margin-bottom: rem(27);
+  color: var(--text-color);
 
   @include breakpoint(large) {
     margin-bottom: rem(24);

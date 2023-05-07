@@ -1,4 +1,5 @@
 @use "../util/" as *;
+//@ alternative Instagram border-top color: https://github.com/thecodercoder/fem-dklt-toggle/commit/abc085b91e2c63758006587af17b2a037d190d96?diff=split#diff-0bc8a0cf82fcde9a5751a645a4bca75441830add445b920d05e408e89ba5516d
 
 .cards {
 	display: grid;
@@ -17,7 +18,7 @@
 .card {
 	position: relative;
 	overflow: hidden;
-	background: var(--dark-card);
+	background: var(--card-bg);
 	color: var(--dark-text1);
 	padding: rem(25);
 	border-radius: rem(5);
@@ -26,8 +27,7 @@
 	cursor:	pointer;
 
 	&:hover {
-		background: var(--dark-card-hover);
-
+		background: var(--card-hover);
 	}
 
 	&--facebook {
@@ -60,13 +60,15 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		height: rem(20);
+		margin-top: rem(5);
 		margin-bottom: rem(28);
 	}
 
 	&__subtitle {
 		font-size: rem(14);
 		font-weight: 700;
-
+		color: var(--text-color2);
 	}
 
 	&__icon {
@@ -84,6 +86,7 @@
 	&__username {
 		font-size: rem(12);
 		font-weight: 700;
+		color: var(--text-color2);
 	}
 
 	&__followers {
@@ -91,7 +94,7 @@
 	}
 
 	&__count {
-		color: var(--light-bg);
+		color: var(--text-color);
 		font-weight: 700;
 		letter-spacing: rem(-1);
 		line-height: 1;
@@ -110,9 +113,8 @@
 		font-size: rem(12);
 		letter-spacing: rem(5);
 		font-weight: 400;
-		color: var(--dark-text1);
+		color: var(--text-color2);
 		text-transform: uppercase;
-		margin-top: rem(9);
 		margin-left: rem(5);
 	}
 
