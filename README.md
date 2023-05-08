@@ -28,8 +28,8 @@ This is my solution to the [Social media dashboard with theme switcher challenge
 
 ## Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/social-media-dashboard-with-theme-switcher-keH2u-2RSi](https://www.frontendmentor.io/solutions/social-media-dashboard-with-theme-switcher-keH2u-2RSi)
+- Live Site URL: [nix7amcm.github.io/FEM-social-dashboard-dl-toggle/](https://nix7amcm.github.io/FEM-social-dashboard-dl-toggle/)
 
 ## Built with
 
