@@ -40,7 +40,7 @@
 
 	&--instagram {
 		border-top: rem(5) solid;
-		border-image: linear-gradient(225deg,
+		border-image: linear-gradient(to left,
 				var(--instagram-end),
 				var(--instagram-middle) 50.91%,
 				var(--instagram-start) 100%) 1 0 0 0;
