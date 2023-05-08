@@ -1,4 +1,4 @@
-# Frontend Mentor - Social media dashboard with theme switcher solution
+# Frontend Mentor - Social Media Dashboard With Theme Switcher solution
 
 This is my solution to the [Social media dashboard with theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H).
 
@@ -9,7 +9,6 @@ This is my solution to the [Social media dashboard with theme switcher challenge
 - [Links](#links)
 - [Built with](#built-with)
 - [Acknowledgments](#acknowledgments)
-
 
 ## Overview
 
@@ -34,6 +33,7 @@ This is my solution to the [Social media dashboard with theme switcher challenge
 ## Built with
 
 - Semantic HTML5 markup
+- CSS custom properties
 - Sass
 - gulp-sass
 - Flexbox
